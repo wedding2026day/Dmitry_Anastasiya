@@ -389,6 +389,36 @@ top: 22%;
 animation:fadeUp 0.8s ease forwards;
 }
 
+/* кнопки в блоке 5 */
+.block5-wrap{
+  position:relative;
+}
+
+.block5-btn{
+  position:absolute;
+  top:95%; /* регулируешь по высоте */
+
+  transform:translateY(-50%);
+}
+
+/* левая кнопка */
+.block5-btn.left{
+  left:20px;
+}
+
+/* правая кнопка */
+.block5-btn.right{
+  right:20px;
+}
+
+/* сами картинки кнопок */
+.block5-btn img{
+  width:120px; /* меняй размер */
+  max-width:35vw;
+  height:auto;
+  display:block;
+}
+
 /* анимация */
 @keyframes fadeUp{
 to{
